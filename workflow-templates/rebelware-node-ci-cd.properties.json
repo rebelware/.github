@@ -6,6 +6,6 @@
         "JavaScript"
     ],
     "filePatterns": [
-        "package.json$",
+        "package.json",
     ]
 }
