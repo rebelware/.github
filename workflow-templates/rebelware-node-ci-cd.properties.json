@@ -3,7 +3,7 @@
     "description": "Build, test, package and publish a node App to NPMJS.org and GitHub Package Registry",
     "iconName": "workflow-icon",
     "categories": [
-        "Node"
+        "JavaScript"
     ],
     "filePatterns": [
         "package.json$",
