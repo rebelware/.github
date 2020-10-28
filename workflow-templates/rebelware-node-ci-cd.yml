@@ -6,6 +6,13 @@ name: Rebelware Basic Node CI/CD
 on:
   release:
     types: [created]
+  push: 
+    branches: 
+      - master
+    paths-ignore:
+      - docs/**
+      - .github/**
+  
 
 jobs:
   build:
