@@ -4,6 +4,12 @@
 name: Rebelware Basic Node CI/CD
 
 on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Reason for run'
+        required: true
+        default: 'Why the manual run'
   release:
     types: [created]
   push: 
